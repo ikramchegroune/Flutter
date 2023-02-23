@@ -71,9 +71,9 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            
-            ElevatedButton(onPressed: clickFunction, child: Text("click",style: TextStyle(color: Colors.red,fontSize: 18),)),
-            Text(texteHolder),
+            Text(texteHolder,style: TextStyle(color: Colors.pink,fontSize: 20,fontStyle:FontStyle.italic)),
+            ElevatedButton(onPressed: clickFunction, child: Text("click",style: TextStyle(color: Colors.white,fontSize: 23),)),
+           
           ],
         ),
       ),
